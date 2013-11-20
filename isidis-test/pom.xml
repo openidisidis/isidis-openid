@@ -92,7 +92,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target>
-								<scp trust="yes" todir="kyoto:openid@178.33.40.183:/home/kyoto/Work">
+								<scp trust="yes" todir="kyoto:openid@192.168.0.33:/home/kyoto/Work">
 									<fileset dir="${basedir}/target">
 										<include name="**/*.tar.gz" />
 									</fileset>
